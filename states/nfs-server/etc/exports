@@ -1,0 +1,4 @@
+/srv/nfs/rke-test    10.101.1.0/24(rw,sync,no_root_squash,no_subtree_check)
+/srv/nfs/rke-int     10.102.1.0/24(rw,sync,no_root_squash,no_subtree_check)
+/srv/nfs/rke-prod    10.103.1.0/24(rw,sync,no_root_squash,no_subtree_check)
+/srv/nfs/rancher     192.168.0.47(rw,sync,no_root_squash,no_subtree_check) 192.168.0.48(rw,sync,no_root_squash,no_subtree_check) 192.168.0.49(rw,sync,no_root_squash,no_subtree_check)
