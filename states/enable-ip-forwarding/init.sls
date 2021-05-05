@@ -15,6 +15,7 @@ net.ipv4.ip_forward_yast:
     - name: /etc/sysctl.d/70-yast.conf
     - pattern: net.ipv4.ip_forward.*
     - repl: net.ipv4.ip_forward = 1
+    - ignore_if_missing: true
 
 net.ipv4.ip_forward_salt:
   sysctl.present:
